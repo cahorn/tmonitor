@@ -25,7 +25,7 @@ def main():
     if args['list']:
         schedule.list()
     # Handle scheduling poll
-    elif args['hourly'] or \
+    elif args['boot'] or args['hourly'] or \
             args['daily'] is not None or args['weekly'] is not None:
         schedule.add(args)
     # Handle non-scheduled poll
