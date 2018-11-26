@@ -7,7 +7,7 @@ import traceback
 DEFAULT_TITLE      = "[tmonitor] Update"
 DEFAULT_TITLE_WARN = "[tmonitor] Warning"
 DEFAULT_TITLE_ERR  = "[tmonitor] Error"
-DEFAULT_BODY       = "At {0} the temperature is {1} C"
+DEFAULT_BODY       = "At {0} UTC the temperature is {1} C"
 
 LOGGER = logging.getLogger(__name__)
 
